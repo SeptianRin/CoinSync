@@ -45,10 +45,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    implementation("com.github.AnyChart:AnyChart-Android:1.1.5")
     implementation("io.insert-koin:koin-android:$koinVersion")
-    implementation("io.insert-koin:koin-androidx-scope:$koinVersion")
-    implementation("io.insert-koin:koin-androidx-viewmodel:$koinVersion")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -57,4 +54,5 @@ dependencies {
     implementation("io.reactivex.rxjava3:rxjava:3.1.5")
     testImplementation("org.mockito:mockito-core:3.+")
     testImplementation("org.robolectric:robolectric:4.9")
+    implementation("com.androidplot:androidplot-core:1.5.10")
 }
