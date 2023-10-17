@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".CoinSyncApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -26,7 +27,7 @@
         </activity>
         <activity
             android:name=".homescreen.presentation.HomescreenActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
